@@ -1,8 +1,9 @@
+//Listázzuk a könyveket divekben
 import KonyvView from "./KonyvView.js";
 
 class KonyvekView {
     constructor(tomb, szuloElem) {
-        szuloElem.append(`<table>
+        szuloElem.append(`<div>
         <thead>
         <tr>
         <th>ID</th>
